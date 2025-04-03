@@ -1,10 +1,10 @@
 let userscore =0;
 let pcscore =0;
-
+let msg=document.querySelector(#msg)
 const choices =document.querySelectorAll(".choice");
 console.log(choices)
 const drawgame=()=>{
-    console.log("game was draw");
+    msg.innertext="game was draw";
 }
 // player selection rps
 const playgame = (userchoice) =>{
